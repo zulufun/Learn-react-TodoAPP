@@ -1,7 +1,13 @@
 import React from 'react'
+import Button from '@atlaskit/button'
+import Todo from './Todo'
 
 export default function Todolist() {
   return (
-    <p>Day la TO do list</p>
+    <div>
+      <Todo/>
+      <Todo/>
+      <Todo/>
+    </div>
   )
 }
